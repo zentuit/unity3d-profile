@@ -20,7 +20,9 @@ namespace Soomla.Profile
 {
 	public class TwitterSocialProvider : SocialProvider
 	{
+		#if DEBUG_SOOMLA
 		private static string TAG = "SOOMLA TwitterSocialProvider";
+		#endif
 
 		public TwitterSocialProvider () {
 			SoomlaProfile.ProviderBecameReady(this);

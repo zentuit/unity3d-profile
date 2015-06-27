@@ -19,7 +19,9 @@ namespace Soomla.Profile
 {
 	public class GPSocialProvider : SocialProvider
 	{
+		#if DEBUG_SOOMLA
 		private static string TAG = "SOOMLA GPSocialProvider";
+		#endif
 
 		public GPSocialProvider () {
 			SoomlaProfile.ProviderBecameReady(this);
