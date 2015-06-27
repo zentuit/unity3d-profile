@@ -76,7 +76,9 @@ namespace Soomla.Profile
 		/// See docs in <see cref="SoomlaProfile.Like"/>
 		/// </summary>
 		public override void Like(string pageId) {
+			#if DEBUG_SOOMLA
 			SoomlaUtils.LogDebug (TAG, "Like");
+			#endif
 			Application.OpenURL("https://www.twitter.com/" + pageId);
 		}
 
