@@ -14,10 +14,10 @@
   ],
   "headerpaths": [
     "Facebook/Editor/iOS",
-    "Facebook/Scripts"
+    "Plugins/Facebook/Scripts"
   ],
   "files": [
-    "Facebook/Scripts/NativeDialogModes.cs",
+    "Plugins/Facebook/Scripts/NativeDialogModes.cs",
   ],
   "folders": [],	
   "excludes": ["^.*\\.meta$", "^.*\\.mdown^", "^.*\\.pdf$"]
